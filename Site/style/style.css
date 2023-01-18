@@ -90,8 +90,7 @@ html{scroll-behavior: smooth;
 .nav input:checked ~ span:nth-child(3) {
     transform: translateY(0) rotate(45deg);}
 
-body{
-    overflow: hidden;}
+
 
 
 
