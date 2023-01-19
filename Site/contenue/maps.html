@@ -4,7 +4,12 @@
 <meta charset="utf-8">
 	<title>maps</title>
   <link rel="stylesheet" type="text/css" href="../style/style.css">
-  <body background="../image/backgroundsite.jpg"></body>
+  <body background="../image/backgroundsite.jpg" style="width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x:hidden
+  "></body>
 </head>
 <body>
 <h1><a class =" header "href="../index.html">WikiValo</a></h1>
@@ -21,7 +26,9 @@
         <li><a href="../contenue/a propos.html">à propos</a></li>
       </div>
         </div>
-  </div>   
+  </div>
+  <!--menudéroulant-->
+  <button class="btn" onclick="mapsfonc()">essaye moi</button>
   <iframe src="https://valorant.fandom.com/wiki/Maps"style="height: 720px; width: 1400px;align-content: center;overflow: hidden;margin-left: 260px;"></iframe>
-
+  <script src="../script/app.js"></script>
 </body>

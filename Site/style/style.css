@@ -1,3 +1,4 @@
+/*Ceci a été réalise par Thomas Malavard, Romain Borsari et Thomas Bertacchi*/
 .header{
 	color: #b8b6b6;
     font-family:STCaiyun;
@@ -84,19 +85,12 @@ html{scroll-behavior: smooth;
 
 .nav input:checked ~ span:nth-child(2) {
     transform: translateY(0) rotate(-45deg);}
+
 .nav span:nth-child(3) {
     transform: translateY(8px);}
 
 .nav input:checked ~ span:nth-child(3) {
     transform: translateY(0) rotate(45deg);}
-
-
-
-
-
-
-
-
 
 button {
 
@@ -119,7 +113,6 @@ button {
     overflow: hidden;
     align-items: center;
 }
-
 button:before {
   content: "";
   position: absolute;
@@ -132,7 +125,6 @@ button:before {
   z-index: -1;
   transition: 0.2s 0.2s ease-in all;
 }
-
 button:after {
   content: "";
   position: absolute;
@@ -143,22 +135,18 @@ button:after {
   background: white;
   transition: 0.2s 0.0s ease-in all;
 }
-
 button:hover {
   cursor: pointer;
   color: transparent;
 }
-
 button:hover:before {
   left: 120%;
   width: 25%;
 }
-
 button:hover:after {
   left: 100%;
   width: 70%;
 }
-
 .icon-right {
   position: absolute;
   top: 0;
